@@ -1,6 +1,6 @@
 {
   "name": "lifegame-core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "hota1024",
   "main": "lib/index.js",
   "types": "lib/src",
