@@ -1,0 +1,39 @@
+{
+  "name": "lifegame-core",
+  "version": "0.0.0",
+  "author": "hota1024",
+  "main": "lib/index.js",
+  "types": "lib/src",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "jest --config jest.config.json",
+    "codecov": "npm run test && codecov",
+    "lint": "eslint ./**/*.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@types/jest": "^24.0.22",
+    "@types/node": "^12.12.7",
+    "@types/webpack": "^4.39.8",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "babel-loader": "^8.0.6",
+    "codecov": "^3.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
