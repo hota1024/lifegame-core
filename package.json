@@ -17,7 +17,8 @@
     "watch": "webpack --watch",
     "test": "jest --config jest.config.json",
     "codecov": "npm run test && codecov",
-    "lint": "eslint ./**/*.ts"
+    "lint": "eslint ./**/*.ts",
+    "publish": "yarn build; yarn publish;"
   },
   "dependencies": {},
   "devDependencies": {
