@@ -1,2 +1,2 @@
 export * from './WorldRendererInterface'
-export * from './WorldRendererInterface'
+export * from './ConsoleWorldRenderer'
