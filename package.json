@@ -5,6 +5,13 @@
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
+  "keywords": [
+    "lifegame",
+    "Game of Life",
+    "TypeScript",
+    "JavaScript",
+    "Node.js"
+  ],
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
